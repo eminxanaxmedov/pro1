@@ -1,66 +1,58 @@
 body {
-    display: flex;
+    font-family: Arial, sans-serif;
+ display: flex;
+    margin: 0;
+    height: 100vh;
 }
+
+.container {
+    display: flex;
+    width: 10%;
+}
+
 .sidebar {
-   width:111px ;
-   
-    border-right: 1px solid #cd0000;
-    padding: 10px;
+    width: 200px;
+    background: #f4f4f4;
+    padding: 15px;
 }
-.content {
+
+.sidebar button {
+    width: 100%;
     padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sidebar button:hover {
+    background: #0056b3;
+    
+}
+
+.display  {
     flex-grow: 1;
+    padding: 15px;
     display: flex;
 }
-.laptop {
-    margin-bottom: 20px;
-}
-.s{
-    width:111px ;
-   border-right: 1px solid #cd0000;
-   padding: 10px; 
-   margin-left: 100px; 
+
+.computer {
+    margin: 20px 0;
+    
 }
 
-.shop {
-width:200px;
-height:250px;
-border:1px solid red;
-padding:5px 5px 5px 0px;
-margin-left:63px ;
-
-}
-.shop img {
-width:80px;
-height:100px;
-float:left;
-margin-right:5px;
-}
-.shop h4 {
-margin-top:0px;
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+   
 }
 
-.sss{
-margin-left: 250px;
-
-}
-.sd{
-height:28px ;
-margin-left:70px ;
-margin-top:10px ;
-background-color: blue;
-border-radius:5px ;
-}
-
-.fd{
-
-margin-left:10px ;
-}
-
-.zz{
-width:120px;
-height:20px;
-border:1px solid red;
-padding:5px 5px 5px 0px;
-margin-left:-49px ;
+.mix {
+    width: 250px;
+    height: 300px;
+    
 }

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    padding: 20px;
+}
+
+.item {
+    flex: 1; /* Каждый элемент занимает равное пространство */
+    margin: 0 10px; /* Отступы между элементами */
+    text-align: center; /* Центрирование изображений */
+}
+
+img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto; /* Пропорциональное изменение высоты */
+}
