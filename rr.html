@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система входа</title>
+</head>
+<body>
+    <h2>Вход в систему</h2>
+    <input type="text" id="username" placeholder="Введите Ваше имя">
+    <button onclick="login()">Войти</button>
+    <p id="message"></p>
+
+    <script>
+        function login() {
+            const correctName = "emin"; // Замените на правильное имя
+            const username = document.getElementById("username").value;
+
+            if (username === correctName) {
+                document.getElementById("message").innerText = username;
+            } else {
+                document.getElementById("message").innerText = "Неправильное имя. Попробуйте снова.";
+            }
+        }
+    </script>
+</body>
+</html>

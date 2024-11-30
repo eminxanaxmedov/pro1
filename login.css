@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff0000, #ff0000);
+    color: #fff;
+}
+.login-container {
+    
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    margin-left:450px ;
+    margin-top: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+h1 {
+    color: #4facfe;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-check-circle" viewBox="0 0 16 16"><path d="M8 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm3.97-9.97a.75.75 0 0 1 1.08 1.04l-4.5 5.5a.75.75 0 0 1-1.08 0l-2.5-2.5a.75.75 0 1 1 1.08-1.04l1.97 1.97 4.45-5.47z"/></svg>') no-repeat right 10px center;
+    background-size: 20px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 90%;
+}
+.login-btn {
+    background: #28a745;
+}
+
+
+.create-btn {
+    background: #28a745;
+}
+
+.btn9{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+.btn9:hover {
+    background: rgb(221, 218, 12);
+}
